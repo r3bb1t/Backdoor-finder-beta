@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Backdoor_finder_beta</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Modules\Account Manipulation %28T1098%29\" />
+    <Folder Include="Modules\BITS Jobs %28T1197%29\" />
+    <Folder Include="Modules\Boot or autologon autostart %28T1547%29\" />
+    <Folder Include="Modules\Boot or autologon init %28T1037%29\" />
+    <Folder Include="Modules\Browser Extensions %28T1176%29\" />
+    <Folder Include="Modules\Compromise Client Software Binary %28T1554%29\" />
+    <Folder Include="Modules\Create Account %28T1136%29\" />
+    <Folder Include="Modules\Create or modify system process %28T1543%29\" />
+    <Folder Include="Modules\Event Triggered Execution %28T1546%29\" />
+    <Folder Include="Modules\External Remote Services %28T1133%29\" />
+    <Folder Include="Modules\Hijack Execution Flow %28T1574%29\" />
+    <Folder Include="Modules\Implant Internal Image %28T1525%29\" />
+    <Folder Include="Modules\Modify Authentication Process %28T1556%29\" />
+    <Folder Include="Modules\Office Application Startup %28T1137%29\" />
+    <Folder Include="Modules\Pre-OS Boot %28T1542%29\" />
+    <Folder Include="Modules\Scheduled Task or Job %28T1053%29\" />
+    <Folder Include="Modules\Server Software Component %28T1505%29\" />
+    <Folder Include="Modules\Traffic Signaling %28T1205%29\" />
+    <Folder Include="Modules\Valid Accounts %28T1078%29\" />
+  </ItemGroup>
+
+</Project>
